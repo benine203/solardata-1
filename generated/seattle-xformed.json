@@ -1,0 +1,170 @@
+[
+  {
+    "Day Number": 3,
+    "Sunrise Hour": 7.95,
+    "Sunset Hour": 16.5,
+    "Daylight Length": 8.55,
+    "Solar Noon Time": 12.2166666666667
+  },
+  {
+    "Day Number": 21,
+    "Sunrise Hour": 7.8,
+    "Sunset Hour": 16.8833333333333,
+    "Daylight Length": 9.0833333333333,
+    "Solar Noon Time": 12.3333333333333
+  },
+  {
+    "Day Number": 37,
+    "Sunrise Hour": 7.48333333333333,
+    "Sunset Hour": 17.2833333333333,
+    "Daylight Length": 9.799999999999969,
+    "Solar Noon Time": 12.3833333333333
+  },
+  {
+    "Day Number": 49,
+    "Sunrise Hour": 7.16666666666667,
+    "Sunset Hour": 17.6,
+    "Daylight Length": 10.433333333333332,
+    "Solar Noon Time": 12.3833333333333
+  },
+  {
+    "Day Number": 61,
+    "Sunrise Hour": 6.8,
+    "Sunset Hour": 17.9166666666667,
+    "Daylight Length": 11.1166666666667,
+    "Solar Noon Time": 12.35
+  },
+  {
+    "Day Number": 89,
+    "Sunrise Hour": 6.86666666666667,
+    "Sunset Hour": 19.5833333333333,
+    "Daylight Length": 12.71666666666663,
+    "Solar Noon Time": 13.2166666666667
+  },
+  {
+    "Day Number": 102,
+    "Sunrise Hour": 6.43333333333333,
+    "Sunset Hour": 19.9,
+    "Daylight Length": 13.466666666666669,
+    "Solar Noon Time": 13.1666666666667
+  },
+  {
+    "Day Number": 111,
+    "Sunrise Hour": 6.16666666666667,
+    "Sunset Hour": 20.1166666666667,
+    "Daylight Length": 13.95000000000003,
+    "Solar Noon Time": 13.1333333333333
+  },
+  {
+    "Day Number": 129,
+    "Sunrise Hour": 5.66666666666667,
+    "Sunset Hour": 20.5333333333333,
+    "Daylight Length": 14.86666666666663,
+    "Solar Noon Time": 13.0833333333333
+  },
+  {
+    "Day Number": 136,
+    "Sunrise Hour": 5.51666666666667,
+    "Sunset Hour": 20.6833333333333,
+    "Daylight Length": 15.166666666666632,
+    "Solar Noon Time": 13.0833333333333
+  },
+  {
+    "Day Number": 154,
+    "Sunrise Hour": 5.23333333333333,
+    "Sunset Hour": 21.0,
+    "Daylight Length": 15.76666666666667,
+    "Solar Noon Time": 13.1166666666667
+  },
+  {
+    "Day Number": 174,
+    "Sunrise Hour": 5.2,
+    "Sunset Hour": 21.1833333333333,
+    "Daylight Length": 15.983333333333302,
+    "Solar Noon Time": 13.1833333333333
+  },
+  {
+    "Day Number": 192,
+    "Sunrise Hour": 5.38333333333333,
+    "Sunset Hour": 21.1,
+    "Daylight Length": 15.716666666666672,
+    "Solar Noon Time": 13.2333333333333
+  },
+  {
+    "Day Number": 196,
+    "Sunrise Hour": 5.43333333333333,
+    "Sunset Hour": 21.05,
+    "Daylight Length": 15.61666666666667,
+    "Solar Noon Time": 13.25
+  },
+  {
+    "Day Number": 218,
+    "Sunrise Hour": 5.86666666666667,
+    "Sunset Hour": 20.6,
+    "Daylight Length": 14.73333333333333,
+    "Solar Noon Time": 13.25
+  },
+  {
+    "Day Number": 225,
+    "Sunrise Hour": 6.03333333333333,
+    "Sunset Hour": 20.4166666666667,
+    "Daylight Length": 14.38333333333337,
+    "Solar Noon Time": 13.2333333333333
+  },
+  {
+    "Day Number": 260,
+    "Sunrise Hour": 6.8,
+    "Sunset Hour": 19.3,
+    "Daylight Length": 12.5,
+    "Solar Noon Time": 13.05
+  },
+  {
+    "Day Number": 272,
+    "Sunrise Hour": 7.08333333333333,
+    "Sunset Hour": 18.8833333333333,
+    "Daylight Length": 11.79999999999997,
+    "Solar Noon Time": 13.9833333333333
+  },
+  {
+    "Day Number": 278,
+    "Sunrise Hour": 7.21666666666667,
+    "Sunset Hour": 18.6833333333333,
+    "Daylight Length": 11.466666666666631,
+    "Solar Noon Time": 12.95
+  },
+  {
+    "Day Number": 298,
+    "Sunrise Hour": 7.7,
+    "Sunset Hour": 18.05,
+    "Daylight Length": 10.350000000000001,
+    "Solar Noon Time": 12.8833333333333
+  },
+  {
+    "Day Number": 314,
+    "Sunrise Hour": 7.1,
+    "Sunset Hour": 16.65,
+    "Daylight Length": 9.549999999999999,
+    "Solar Noon Time": 11.8833333333333
+  },
+  {
+    "Day Number": 322,
+    "Sunrise Hour": 7.3,
+    "Sunset Hour": 16.4833333333333,
+    "Daylight Length": 9.183333333333298,
+    "Solar Noon Time": 11.9
+  },
+  {
+    "Day Number": 359,
+    "Sunrise Hour": 7.93333333333333,
+    "Sunset Hour": 16.3666666666667,
+    "Daylight Length": 8.433333333333369,
+    "Solar Noon Time": 12.15
+  },
+  {
+    "Day Number": 366,
+    "Sunrise Hour": 7.96666666666667,
+    "Sunset Hour": 16.4666666666667,
+    "Daylight Length": 8.50000000000003,
+    "Solar Noon Time": 12.2
+  }
+]
