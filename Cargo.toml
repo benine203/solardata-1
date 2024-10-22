@@ -1,0 +1,15 @@
+[package]
+name = "sun"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.20", features = ["derive", "env"] }
+dotenv = "0.15.0"
+libtad-rs = { version = "0.2.0", features = ["reqwest"] }
+plotters = "0.3.7"
+reqwest = "0.12.8"
+serde = { version = "1.0.210", features = ["derive"] }
+serde-this-or-that = "0.4.2"
+serde_json = "1.0.132"
+tokio = { version = "1.40.0", features = ["full"] }
