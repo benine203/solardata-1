@@ -1,5 +1,10 @@
 # sun
 
+## final generated graphs
+
+![seattle](generated/seattle.svg)
+![tucson](generated/tucson.svg)
+
 ## step 1: convert raw data (csv) to JSON
 
 ```bash
