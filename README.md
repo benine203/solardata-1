@@ -1,9 +1,12 @@
-# sun
+# Sunset/Sunrise/etc.. for Seattle + Tucson
+And fitted sine waves with parameters.
+
+This is the software used to graph and estimate some of the parameters.
 
 ## final generated graphs
 
-![seattle](generated/seattle.svg)
-![tucson](generated/tucson.svg)
+![seattle gen](generated/seattle.svg)
+![tucson gen](generated/tucson.svg)
 
 ## step 1: convert raw data (csv) to JSON
 
