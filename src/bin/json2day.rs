@@ -291,6 +291,19 @@ fn main() {
             *midline = self.get_midline();
             *period = period_mul_2pi * 2.0 * std::f64::consts::PI / 365.0;
 
+            eprintln!(
+                "Magnitude = A = |{:.2} - {:.2}| / 2 = {:.2}",
+                self.max, self.min, *mag
+            );
+            eprintln!(
+                "Midline = D = ({:.2} + {:.2}) / 2 = {:.2}",
+                self.max, self.min, *midline
+            );
+            eprintln!(
+                "Period = 365 = 2\u{03C0}/B ==> B = {:.0}\u{03C0} / 365",
+                2.0 * period_mul_2pi
+            );
+
             // find ydar closest to midline
             let mut closest = data[0];
             let mut closest_last_pt = data[0];
@@ -316,9 +329,14 @@ fn main() {
             }
 
             eprintln!(
-                "Closest: {:?}, Shift: {}; deriv: {}",
-                closest, *shift, closest_deriv
+                "Phase = C/B = {} ==> C = {}*2\u{03C0}/365",
+                closest.1, *shift
             );
+
+            //eprintln!(
+            //    "Closest: {:?}, Shift: {}; deriv: {}",
+            //    closest, *shift, closest_deriv
+            //);
 
             *shift = *shift * if closest_deriv >= 0.01 { -1.0 } else { 1.0 };
 
@@ -376,6 +394,9 @@ fn main() {
                 .collect(),
             1.0,
         );
+        println!("Fitment Sunrise: {:?}", fit_srise);
+        println!("------------------------------");
+
         let fit_sset = mmsset.fit(
             &data
                 .iter()
@@ -383,6 +404,9 @@ fn main() {
                 .collect(),
             1.0,
         );
+        println!("Fitment Sunset: {:?}", fit_sset);
+        println!("------------------------------");
+
         let fit_solnoon = mmsolnoon.fit(
             &data
                 .iter()
@@ -390,6 +414,9 @@ fn main() {
                 .collect(),
             2.0,
         );
+        println!("Fitment Solar Noon: {:?}", fit_solnoon);
+        println!("------------------------------");
+
         let fit_daylen = mmdaylen.fit(
             &data
                 .iter()
@@ -397,11 +424,8 @@ fn main() {
                 .collect(),
             1.0,
         );
-
-        println!("Fitment Sunrise: {:?}", fit_srise);
-        println!("Fitment Sunset: {:?}", fit_sset);
-        println!("Fitment Solar Noon: {:?}", fit_solnoon);
         println!("Fitment Day Length: {:?}", fit_daylen);
+        println!("------------------------------");
 
         chart
             .draw_series(LineSeries::new(
